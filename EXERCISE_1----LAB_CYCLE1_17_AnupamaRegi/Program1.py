@@ -1,0 +1,15 @@
+#PROGRAM - 1 : NumPy Program to create an element - wise comparison (greater,greater_equal,less,less_equal) of 2 given array?
+import numpy as np
+a1=np.array([[2,30,4],[2,4,5]])
+a2=np.array([[12,3,4],[2,54,5]])
+print("\nTwo given arrays are \n")
+print("\nFirst Array : \n\n",a1)
+print("\nSecond Array : \n\n",a2)
+print("\nChecking Greater ! ! ! \n")
+print(np.greater(a1,a2))
+print("\nChecking Greater_equal ! ! ! \n")
+print(np.greater_equal(a1,a2))
+print("\nChecking Less ! ! ! \n")
+print(np.less(a1,a2))
+print("\nChecking Less_equal ! ! ! \n")
+print(np.less_equal(a1,a2))
